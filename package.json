@@ -28,6 +28,6 @@
   },
   "devDependencies": {
     "typescript": "^3.0.3",
-    "static-type-assert": "1.2.1"
+    "static-type-assert": "2.0.0"
   }
 }
