@@ -1,3 +1,5 @@
+dependencies:
+  typescript-logic: 0.0.0
 devDependencies:
   static-type-assert: 1.2.1
   typescript: 3.0.3
@@ -8,6 +10,10 @@ packages:
       typescript: ^3.0.3
     resolution:
       integrity: sha512-mbJgOny8wt+mqMMYVl1pYBCjUV8Sd5RncGIZOz+4990yVOHmxCC8WPjXcBwMkVIfQNJgSOLlXO+5AmpDO0+D9w==
+  /typescript-logic/0.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-zXFars5LUkI3zP492ls0VskH3TtdeHCqu0i7/duGt60i5IGPIpAHE/DWo5FqJ6EjQ15YKXrt+AETjv60Dat34Q==
   /typescript/3.0.3:
     dev: true
     engines:
@@ -21,3 +27,4 @@ shrinkwrapVersion: 3
 specifiers:
   static-type-assert: ^1.2.1
   typescript: ^3.0.3
+  typescript-logic: ^0.0.0
