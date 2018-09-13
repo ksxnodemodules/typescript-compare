@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ksxnodemodules/typescript-logic.git"
+    "url": "git+https://github.com/ksxnodemodules/typescript-compare.git"
   },
   "keywords": [
     "logic",
@@ -22,9 +22,9 @@
   "author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ksxnodemodules/typescript-logic/issues"
+    "url": "https://github.com/ksxnodemodules/typescript-compare/issues"
   },
-  "homepage": "https://github.com/ksxnodemodules/typescript-logic#readme",
+  "homepage": "https://github.com/ksxnodemodules/typescript-compare#readme",
   "devDependencies": {
     "typescript": "^3.0.3",
     "static-type-assert": "^1.2.1"
