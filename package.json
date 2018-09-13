@@ -1,7 +1,7 @@
 {
-  "name": "typescript-logic",
+  "name": "typescript-compare",
   "version": "0.0.0",
-  "description": "TypeScript generics to work with boolean types",
+  "description": "TypeScript generics to compare types",
   "main": "index.js",
   "scripts": {
     "prepublishOnly": "tsc",
@@ -12,12 +12,10 @@
     "url": "git+https://github.com/ksxnodemodules/typescript-compare.git"
   },
   "keywords": [
-    "logic",
+    "compare",
     "generic",
     "typescript",
-    "boolean",
-    "true",
-    "false"
+    "types"
   ],
   "author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
   "license": "MIT",
@@ -25,6 +23,9 @@
     "url": "https://github.com/ksxnodemodules/typescript-compare/issues"
   },
   "homepage": "https://github.com/ksxnodemodules/typescript-compare#readme",
+  "dependencies": {
+    "typescript-logic": "^0.0.0"
+  },
   "devDependencies": {
     "typescript": "^3.0.3",
     "static-type-assert": "^1.2.1"
