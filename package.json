@@ -1,6 +1,6 @@
 {
   "name": "typescript-compare",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "TypeScript generics to compare types",
   "main": "index.js",
   "scripts": {
