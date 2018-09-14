@@ -16,7 +16,7 @@ export type Extends<A, B> = Or<
 export type Compare<A, B, Options extends Compare.Options = Compare.Options.Default> =
   If<Extends<A, B>,
     If<Extends<B, A>,
-      Options['equal'],
+      Options['equal' | 'broaderRight' | 'broaderLeft'],
       Options['broaderRight']
     >,
     If<Extends<B, A>,
@@ -26,6 +26,18 @@ export type Compare<A, B, Options extends Compare.Options = Compare.Options.Defa
   >
 
 export namespace Compare {
+  export type Strict<A, B, Options extends Compare.Options = Compare.Options.Default> =
+    If<Extends<A, B>,
+      If<Extends<B, A>,
+        Options['equal'],
+        Options['broaderRight']
+      >,
+      If<Extends<B, A>,
+        Options['broaderLeft'],
+        Options['mismatch']
+      >
+    >
+
   export interface Options {
     broaderLeft: any
     broaderRight: any
