@@ -70,7 +70,7 @@ export type Any<Type> = And<
   prv.Extends<Type, 1>
 >
 
-export type NotAny<Type, True = true, False = true> = Not<Any<Type>>
+export type NotAny<Type> = Not<Any<Type>>
 
 namespace prv {
   export type Extends<A, B> = [A] extends [B] ? true : false
