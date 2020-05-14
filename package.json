@@ -27,7 +27,7 @@
     "typescript-logic": "^0.0.0"
   },
   "devDependencies": {
-    "typescript": "^3.0.3",
+    "typescript": "~3.9.2",
     "static-type-assert": "3.0.1"
   }
 }
